@@ -5,11 +5,12 @@ Personal project display incoming maybe
 
  <button type="button" onclick="changeContent()"> wot </button>
 
-<p id="content">  </p>
+<div id="content">  </div>
 
 <script>
-function changeContent() {
-  document.getElementById("content").innerHTML = "Paragraph changed!"; 
+async function changeContent() {
+  const contentDiv = document.getElementById("content");
+ contentDiv.innerHTML = await fetchHtmlAsText("GameDev.html");
 }  
 </script>
 
