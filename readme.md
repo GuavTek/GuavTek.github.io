@@ -12,6 +12,10 @@ async function changeContent() {
   const contentDiv = document.getElementById("content");
  contentDiv.innerHTML = await fetchHtmlAsText("GameDev.html");
 }  
+ 
+async function fetchHtmlAsText(url) {
+    return await (await fetch(url)).text();
+}
 </script>
 
 </html>
