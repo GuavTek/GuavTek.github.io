@@ -21,7 +21,7 @@ Personal project display incoming maybe
 <script>
 async function changeContent(page) {
   const contentDiv = document.getElementById("content");
- contentDiv.innerHTML = await fetch(page);
+ contentDiv.innerHTML = await fetchHtmlAsText(page);
 }  
  
 async function fetchHtmlAsText(url) {
