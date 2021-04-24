@@ -2,7 +2,7 @@
  <h1> Top Text </h1>
  
  <p> 
-Personal project display incoming maybe
+    Portfolio of projects I've worked on!
 </p>
 
 <div style="width:90%">
