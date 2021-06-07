@@ -1,9 +1,8 @@
 <html>
- <h1> Top Text </h1>
- 
- <p> 
-    Portfolio of projects I've worked on!
-</p>
+  
+ <h1> 
+    A portfolio of projects I've worked on!
+</h1>
 
 <div style="width:90%">
  <button type="button" style="width:30%" onclick="changeContent('GameDev/GameDev.html')"> Game Development </button>
@@ -16,7 +15,7 @@
 
 <div id="content">  </div>
 
-<p> Bottom text </p>
+<p> ... </p>
 
 <script>
 async function changeContent(page) {
