@@ -15,7 +15,8 @@
 
 <div id="content">  </div>
 
-<p> ... </p>
+&emsp;
+<p> Quality is subjective </p>
 
 <script>
 async function changeContent(page) {
