@@ -8,9 +8,9 @@
  <button type="button" style="width:30%" onclick="changeContent('GameDev/GameDev.html')"> Game Development </button>
  <button type="button" style="width:30%" onclick="changeContent('Synth/Synthesizer.html')"> Synthesizer </button>
  <button type="button" style="width:30%" onclick="changeContent('Electronics/Electronics.html')"> Electronics </button>
- <a href="https://GuavTek.github.io/testing">
+ <!--<a href="https://GuavTek.github.io/testing">
   <button type="button" style="width:30%"> Testing </button>
- </a>
+ </a> -->
 </div>
 
 <div id="content">  </div>
